@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-API_BASE = os.environ.get("API_BASE", "https://career-kol5.onrender.com")
+API_BASE = os.environ.get("API_BASE", "http://127.0.0.1:8000")
 
 st.set_page_config(
     page_title="Career Outcomes Agent", 
